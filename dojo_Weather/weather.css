@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-size: 40px;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: rgb(159,197,248);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0px auto;
+    border-bottom: 3px solid black;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.top-right {
+    display: flex;
+}
+
+.flexContainer {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    background-color: rgb(172, 172, 172);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.boxBottom {
+    display: flex;
+    gap: 100px;
+    
+}
+
+.hot, .cold {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.hot {
+    color: red;
+}
+
+.cold {
+    color: rgb(66,133,228);
+}
+
+h3{
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: bolder;
+}
+.cookie {
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 900px;
+    position: fixed;
+    top: 600px;
+    left: 517px;
+    padding: 15px;
+
+}
+
+button {
+    margin-left: 80px;
+}
+
+.cookie-img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+
+
+.cookie div {
+    width: 1000px;
+}
